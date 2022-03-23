@@ -1,0 +1,1 @@
+进入rocketmq-broker/conf/prod/broker.properties，查看对应的配置，brokerid为0就是主备同步的主节点
