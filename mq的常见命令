@@ -1,0 +1,12 @@
+查询cluster信息：python python_admin.py getClusterList
+
+查询topic信息：python python_admin.py topicList
+
+查询当前授权信息：curl res
+
+按时间段查询消息：python python_admin.py queryMsgByTime
+
+按消息id查看消息：python python_admin.py queryMsgByID
+
+按消息key查看消息：python python_admin.py queryMsgBykey
+
