@@ -1,0 +1,14 @@
+看mq的版本：
+rabbitmqctl version
+
+看mq的状态：
+rabbitmqctl cluster_status
+
+停止mq：
+rabbitmqctl stop_app
+
+把mq加入集群
+rabbitmqctl join_cluster rabbit@<集群的master节点>
+
+把mq剔除集群：
+rabbitmqctl forget_cluster_node rabbit@<old-mq-hostname> 
